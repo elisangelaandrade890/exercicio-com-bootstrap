@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">   
+</head>
+<body>
+
+
+  <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Unidades</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contato</button>
+    </li>
+  </ul>
+
+  <!-- Conteúdo Principal usando Grid System -->
+    <main class="container mt-4">
+        <div class="row">
+            <!-- Coluna principal -->
+            <div class="col-lg-8">
+                <h2>CONHEÇA NOSSAS UNIDADES!</h2>
+                <p>
+                  Saiba onde ficam as nossas unidades e escolha a mais próxima de você.
+                </p>
+            </div>
+            
+            <!-- Barra lateral -->
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center">
+                  Campo Grande
+                  <span class="badge bg-primary rounded-pill">21 98888-8888</span>
+                </li>
+                <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                  São João de Meriti
+                  <span class="badge bg-primary rounded-pill">21 98888-8888</span>
+                </li>
+                <li class="list-group-item list-group-item-success d-flex justify-content-between align-items-center">
+                  Miguel Couto
+                  <span class="badge bg-primary rounded-pill">21 98888-8888</span>
+                </li><li class="list-group-item list-group-item-info d-flex justify-content-between align-items-center">
+                  Nilópolis
+                  <span class="badge bg-primary rounded-pill">21 98888-8888</span>
+                </li>
+                <li class="list-group-item list-group-item-warning d-flex justify-content-between align-items-center">
+                  Taquara
+                  <span class="badge bg-primary rounded-pill">21 98888-8888</span>
+                </li>
+                <li class="list-group-item list-group-item-danger d-flex justify-content-between align-items-center">
+                  Tijuca
+                  <span class="badge bg-primary rounded-pill">21 98888-8888</span>
+                </li>
+                <li class="list-group-item list-group-item-light d-flex justify-content-between align-items-center">
+                  Madureira
+                  <span class="badge bg-primary rounded-pill">21 98888-8888</span>
+                </li>
+                <li class="list-group-item list-group-item-dark d-flex justify-content-between align-items-center">
+                  Seropédica
+                  <span class="badge bg-primary rounded-pill">21 98888-8888</span>
+                </li>
+              </ul>
+        </div>
+      </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
